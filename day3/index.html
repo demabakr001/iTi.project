@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+</head>
+<body>
+    <header>
+    <h1>Dema's Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#courses">Courses</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello My name is Dema
+                I'm a HNU student interested in web development
+                I enjoy learning new things and building creative projects
+            </p>
+            <img src="dema.jpeg" alt="dema" width="250">
+        </section>
+    </main>
+    <hr>
+        <section id="skills">
+            <h2>Skills</h2>
+             <ul>
+                <li><strong>HTML</strong></li>
+                <li><strong>C++</strong></li>
+                <li><em>python</em></li>
+            </ul>
+            <h3>Learning Journey</h3>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React JS</li>
+            </ol>
+            <p>
+                I try to learn something new every day,
+                 and this takes<strong>time and patience</strong>, 
+                 but the result is worth it.
+                <mark> Consistency is the most important thing</mark>
+                 on this journey.
+            </p>
+        </section>
+        <section id="Courses">
+            <h2>My Courses Table</h2>
+            <table border="1">
+                <label> courses i've learned</label>
+                <thead>
+                    <tr>
+                        <th>course name</th>
+                        <th>duration</th>
+                        <th>status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>web development using react</td>
+                        <td>1 month</td>
+                        <td>progress</td>
+                    </tr>
+                    <tr>
+                        <td>macheine learning</td>
+                        <td>3 months</td>
+                        <td> not started</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">total courses</td>
+                        <td>2</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section id="Gallery">
+            <h2>My Gallery</h2>
+            <figure>
+                <img src="1st.jpeg" alt="first photo in my gallery" width="200">
+                <figcaption> my first image</figcaption>
+            </figure>
+            <figure>
+                <img src="2nd.jpeg" alt="second photo in my gallery" width="200">
+                <figcaption> my second image</figcaption>
+            </figure>
+            <figure>
+                <img src="3rd.jpeg" alt="third photo in my gallery" width="200">
+                <figcaption> my third image</figcaption>
+            </figure>
+        </section>
+        <section id="Contact">
+            <h2>contact me</h2>
+            <form>
+                <fieldset>
+                    <legend>personal information</legend>
+                    <label for="name">name:</label>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="dema">
+                    <br>
+                    <label for="email">email:</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="demabakr001@gmail.com">
+                    <br>
+                     <label for="phone">phone:</label>
+                    <br>
+                    <input type="tel" id="phone" name="phone" placeholder="01156026223">
+                    <br>
+                    <label for="birthdate">date of birth:</label>
+                    <br>
+                    <input type="date" id="birthdate" name="birthdate" placeholder="4/12/2006" >
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>contact details</legend>
+                    <label for="subject">Subject:</label>
+                    <br>
+                    <select id="subject" name="subject">
+                        <option value="question">Question</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="work">Work Opportunity</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <br>
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        cols="30"
+                        placeholder="write your message here.."
+                    ></textarea>
+                    <br>
+                    <p>Preferred Contact Method:</p>
+                    <input
+                        type="radio"
+                        id="contact-phone"
+                        name="contact-method"
+                        value="phone">
+                    <br>
+                    <input
+                        type="checkbox"
+                        id="terms"
+                        name="terms"
+                        required
+                    >
+                    <label for="terms">
+                        I agree to the terms and conditions.
+                    </label>
+                    <br><br>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </form>
+            <hr>
+            </section>
+    
+            <section id="faq">
+                <h2>Frequently Asked Questions</h2>
+                <details>
+                    <summary>What are you currently learning?</summary>
+                    <p>I am currently learning Web Development Using react and HTML.</p>
+                </details>
+                <br>
+                <details>
+                    <summary>What is your goal?</summary>
+                    <p>My goal is to improve my Web Development skills.</p>
+                </details>
+                <br>
+                <details>
+                    <summary>What do you enjoy?</summary>
+                    <p>I enjoy learning new things and building websites.</p>
+                </details>
+                <hr>    
+                <p>
+                    <blockquote>"The best way to learn is to practice."</blockquote>
+                </p>
+                </section>
+
+    </main>
+        <footer>
+        <h2>Contact Information</h2>
+        <address>
+            Email:
+            <a href="mailto:your@email.com">demabakr001@gmail.com</a>
+            <br>
+            Location: [6 october, giza]
+        </address>
+        <p>
+            <a href="#"> instagram:_deema12</a>
+            &nbsp;
+        </p>
+        <p>
+            &copy; 2026 [dema]. All rights reserved.
+        </p>
+        <p>
+            Made with &nbsp; HTML
+        </p>
+    </footer>
+</body>
+</html>
