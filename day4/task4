@@ -1,0 +1,95 @@
+HTML QUICK SUMMARY
+===================
+WHAT IS HTML?
+-------------
+HTML stands for HyperText Markup Language. It is the standard markup
+language used to create web pages. HTML is NOT a programming language;
+it is a markup language that describes the structure and content of a
+web page using elements.
+
+WHY IS HTML IMPORTANT?
+--------------------------------------
+- It is the foundation of every website on the internet.
+- It defines the structure and content of a web page (text, images,
+  links, forms, tables, etc.).
+- It works together with CSS (styling) and JavaScript (behavior) to
+  build complete, interactive websites.
+- It is easy to learn,free, and supported by every web browser.
+- Semantic HTML improves accessibility and SEO (helps search engines
+  understand the page content).
+- It allows browsers to build the DOM (Document Object Model), which
+  can be manipulated using JavaScript to create dynamic pages.
+MOST IMPORTANT CONCEPTS IN HTML
+--------------------------------
+1. HTML Document Structure:
+   <!DOCTYPE html>, <html>, <head>, <body>
+
+2. Elements & Tags:
+   - Elements usually have an opening tag, content, and a closing tag:
+     <p>This is a paragraph</p>
+   - Some elements are self-closing (void elements): <img>, <br>, <input>
+   - Elements can have attributes (name="value") that add extra info,
+     e.g. <p id="myId" class="intro">...</p>
+
+3. Block vs Inline Elements:
+   - Block-level elements start on a new line and take full width
+     ( <div>, <p>, <h1>-<h6>, <ul>, <form>).
+   - Inline elements flow within the line (<span>, <a>, <b>, <img>).
+
+4. Structural vs Semantic Elements:
+   - Structural (no meaning): <div>, <span>
+   - Semantic (meaningful): <header>, <nav>, <main>, <section>,
+     <article>, <aside>, <footer>, <figure>
+   Semantic elements make code more readable and improve SEO/accessibility.
+
+5. The DOM (Document Object Model):
+   - A tree-like representation of the HTML document that allows
+     JavaScript to access, modify, or manipulate page content and style.
+
+6. Comments:
+   - Written as: <!-- This is a comment -->
+   - Not shown in the browser, used to explain code or disable sections.
+
+MOST COMMONLY USED HTML TAGS
+------------------------------
+Document structure:
+  <html>, <head>, <title>, <body>, <meta>, <link>, <script>, <style>
+
+Text content:
+  <h1> to <h6>  -> Headings
+  <p>           -> Paragraph
+  <br>          -> Line break
+  <hr>          -> Horizontal rule
+  <strong> / <b> -> Bold text
+  <em> / <i>     -> Italic text
+  <span>        -> Inline generic container
+
+Links & media:
+  <a href="...">  -> Hyperlink
+  <img src="...">  -> Image
+  <video>, <audio> -> Media
+
+Lists:
+  <ul>  -> Unordered list
+  <ol>  -> Ordered list
+  <li>  -> List item
+
+Tables:
+  <table>, <tr>, <th>, <td>, <thead>, <tbody>
+
+Forms:
+  <form>, <input>, <label>, <textarea>, <select>, <option>,
+  <button>, <fieldset>, <legend>
+
+Layout / structure (semantic):
+  <div>, <header>, <nav>, <main>, <section>, <article>,
+  <aside>, <footer>, <figure>
+
+QUICK NOTES
+------------
+- HTML5 is the latest major version and introduced new elements
+  (semantic tags, <audio>, <video>, <canvas>) and new input types.
+- Always structure your page properly: DOCTYPE > html > head/body.
+- Use semantic tags whenever possible instead of only <div>/<span>.
+- Every attribute value should be inside quotes: attribute="value".
+- HTML works hand-in-hand with CSS (styling) and JavaScript (behavior).
